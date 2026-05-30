@@ -1,6 +1,8 @@
 # OPPO/Samsung Galaxy Fit3 Watchface Parser
 
-![Preview](assets/fit3.jpg)
+<p align="center">
+  <img src="assets/fit3.jpg" alt="Preview" width="300" />
+</p>
 
 A reverse-engineered parser for OPPO-format watchface binaries used by the **Samsung Galaxy Fit3** (SM-R390). Parses the proprietary `.bin` format, extracts embedded images, and reconstructs full watchface previews with customizable demo data.
 
@@ -15,7 +17,6 @@ A reverse-engineered parser for OPPO-format watchface binaries used by the **Sam
   - [Customizing Demo Values](#customizing-demo-values)
   - [World Clock](#world-clock)
   - [Full CLI Reference](#full-cli-reference)
-- [FIT3.studio](#fit3studio)
 - [Output](#output)
 - [Legal Disclaimer](#legal-disclaimer)
 
