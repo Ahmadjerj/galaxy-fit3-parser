@@ -239,7 +239,9 @@ When running `--info`, the parser prints:
 ## Note
 
 ⚠️ **AI-assisted development**: This parser was developed with the assistance of AI tools (Claude code and some OpenCode).
+
 🔬 **Alpha quality**: The parser is still in early development and may contain bugs.
+
 🔧 **Hardcoded elements**: Some values are currently hardcoded and may not work for all watchface variants and a lot of the watchfaces features are guessed because I am not the best type of developer.
 
 ---
