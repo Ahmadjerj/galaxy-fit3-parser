@@ -2,7 +2,7 @@
 
 ![Preview](assets/fit3.jpg)
 
-A reverse-engineered parser and renderer for OPPO-format watchface binaries used by the **Samsung Galaxy Fit3** (SM-R390). Parses the proprietary `.bin` format, extracts embedded images, and reconstructs full watchface previews with customizable demo data.
+A reverse-engineered parser for OPPO-format watchface binaries used by the **Samsung Galaxy Fit3** (SM-R390). Parses the proprietary `.bin` format, extracts embedded images, and reconstructs full watchface previews with customizable demo data.
 
 ## Table of Contents
 
@@ -31,7 +31,6 @@ A reverse-engineered parser and renderer for OPPO-format watchface binaries used
 - Font binding and glyph group parsing with locale support
 - World clock rendering support
 - Generates contact sheets of all styles in a watchface
-- Includes `FIT3.studio` — a browser-based visual watchface inspector
 
 ---
 
@@ -214,11 +213,6 @@ usage: parser.py [-h] [--reconstruct] [--extract-images] [--info]
 | `--world-year WORLD_YEAR` | int | *(none)* | World clock year |
 | `--world-name WORLD_NAME` | str | *(none)* | World clock city label (e.g. `"Tokyo"`, `"London"`) |
 
----
-
-## FIT3.studio
-
-The project includes `FIT3_studio.html`, a standalone browser-based visual inspector for watchface binaries. Open it directly in any modern browser — no server required.
 
 ---
 
