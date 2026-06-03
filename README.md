@@ -6,6 +6,12 @@
 
 A reverse-engineered parser for OPPO-format watchface binaries used by the **Samsung Galaxy Fit3** (SM-R390). Parses the proprietary `.bin` format, extracts embedded images, and reconstructs full watchface previews with customizable demo data.
 
+> [!CAUTION]
+>  🔬 **Alpha quality**: The parser is still in early development and may contain bugs.
+> 
+> ⚠️ **AI-assisted development**: This parser was developed with the assistance of AI tools (Claude code and some OpenCode).
+> 
+> 🔧 **Hardcoded elements**: Some values are currently hardcoded and may not work for all watchface variants and a lot of the watchfaces features are guessed because I am not the best type > of developer.
 ## Table of Contents
 
 - [Features](#features)
@@ -233,16 +239,6 @@ When running `--info`, the parser prints:
 - Font bindings (name, point size, family)
 - Glyph groups (locale-aware string tables)
 - Full widget tree per style (type, position, size, seq binding, colors, frame counts, etc.)
-
----
-
-## Note
-
-⚠️ **AI-assisted development**: This parser was developed with the assistance of AI tools (Claude code and some OpenCode).
-
-🔬 **Alpha quality**: The parser is still in early development and may contain bugs.
-
-🔧 **Hardcoded elements**: Some values are currently hardcoded and may not work for all watchface variants and a lot of the watchfaces features are guessed because I am not the best type of developer.
 
 ---
 
